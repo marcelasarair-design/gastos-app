@@ -1,4 +1,4 @@
-\# Registro de Gastos Personales
+# Registro de Gastos Personales
 
 
 
@@ -8,7 +8,7 @@ Desarrollada para la asignatura Herramientas Avanzadas para el Desarrollo de Apl
 
 
 
-\## Funcionalidades
+## Funcionalidades
 
 \- Agregar un gasto con descripción, monto, fecha (por defecto la de hoy) y categoría.
 
@@ -22,13 +22,13 @@ Desarrollada para la asignatura Herramientas Avanzadas para el Desarrollo de Apl
 
 
 
-\## Tecnologías
+## Tecnologías
 
 HTML, CSS y JavaScript (sin dependencias).
 
 
 
-\## Cómo ejecutarla
+## Cómo ejecutarla
 
 1\. Clona el repositorio: `git clone https://github.com/marcelasarair-design/gastos-app.git`
 
@@ -36,7 +36,7 @@ HTML, CSS y JavaScript (sin dependencias).
 
 
 
-\## Estructura
+## Estructura
 
 \- `index.html`: estructura de la página.
 
