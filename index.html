@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registro de Gastos Personales</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1>Registro de Gastos Personales</h1>
+
+    <!-- Funcionalidad 1: agregar gasto -->
+    <section class="tarjeta">
+      <h2>Agregar gasto</h2>
+      <div class="formulario">
+        <input type="text" id="descripcion" placeholder="Descripción (ej. Almuerzo)" maxlength="60">
+        <input type="number" id="monto" placeholder="Monto (USD)" min="0" max="1000000" step="0.01">
+        <input type="date" id="fecha">
+        <select id="categoria">
+          <option>Alimentación</option>
+          <option>Transporte</option>
+          <option>Estudios</option>
+          <option>Ocio</option>
+          <option>Otros</option>
+        </select>
+        <button id="btn-agregar">Agregar</button>
+      </div>
+      <p id="mensaje" class="mensaje"></p>
+    </section>
+
+    <!-- Funcionalidad 2: listar y filtrar -->
+    <section class="tarjeta">
+      <div class="encabezado-lista">
+        <h2>Mis gastos</h2>
+        <select id="filtro">
+          <option value="Todas">Todas las categorías</option>
+          <option>Alimentación</option>
+          <option>Transporte</option>
+          <option>Estudios</option>
+          <option>Ocio</option>
+          <option>Otros</option>
+        </select>
+      </div>
+      <ul id="lista"></ul>
+      <p class="total">Total: <strong id="total">$0.00</strong></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
