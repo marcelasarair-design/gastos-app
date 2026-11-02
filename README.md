@@ -46,7 +46,7 @@ HTML, CSS y JavaScript (sin dependencias).
 
 
 
-\## Cómo usé la IA
+## Cómo usé la IA
 
 Usé un asistente de IA (Claude) como apoyo para proponer la estructura del proyecto, generar el código y explicarlo. Yo revisé y probé cada cambio antes de incorporarlo.
 
